@@ -83,5 +83,8 @@ ketik di url localhost:8000/home -> itu untuk tambah data.
 kalau untuk melihat data, edit, dan hapus data. anda ketik di url localhost:8000/login
 anda isi email tersebut dengan admin@mail.com
 dan isi password nya dengan admin1234
-lalu ke menu donasi, anda bisa edit data dan hapus data tersebut
-Silahkan mencoba ....
+lalu ke menu donasi, anda bisa edit data dan hapus data tersebut.
+
+Sebelumnya, kita composer install terlebih dahulu di folder laravel nya,
+Lalu kita ketik di cmd yang meredirect ke folder donasi yakni php artisan storage:link
+
