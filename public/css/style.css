@@ -1,0 +1,139 @@
+html {
+  scroll-behavior: smooth;
+}
+.divblock{
+	background-image: url(../img/qweq.JPG);
+/*	margin: 0px auto;*/
+}
+.overlay{
+	background-color: rgba(2, 169, 19, 0.7);
+    z-index: 2;
+    height: 100%;
+    padding: 50px;
+}
+.overlay1{
+    z-index: 2;
+    height: 100%;
+    padding: 50px;
+}
+.card1 {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    /*background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;*/
+}
+.blocks{
+	display:block;background-color:#fff;
+	margin:0;padding:50px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+	border-bottom:solid 0px #ddd;
+}
+#menu{
+	/*column-count: 3;*/
+	display: inline-block;
+	flex-direction: row;
+}
+.listproducts li,
+.thumb li {
+	list-style: none;
+    display: inline-block;
+    margin: 55px;
+    vertical-align: top;
+}
+.ta-center {
+    text-align: center;
+}
+.pointer {
+    cursor: pointer;
+}
+.listproducts li.selected,
+.thumb li.selected{
+	background-color: rgba(2, 169, 19, 0.7);
+}
+.listproducts li:hover {
+	box-shadow: 10px 5px 12px 3px #000;
+	/*background-color:purple*/;
+}
+@media only screen and (max-width: 320px)
+{
+	.overlay{
+		padding: 0px;
+	}
+}
+@media only screen and (max-width: 1024px)
+{
+	.listproducts li, .thumb li {
+	list-style: none;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+}
+}
+
+/*.listproducts li.selected, .thumb li.selected {
+    background-color: purple;
+}
+.listproducts li, .thumb li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+}
+.ta-center {
+    text-align: center;
+}
+.pointer {
+    cursor: pointer;
+}
+.listproducts li div,
+.thumb li div{
+	border: solid 5px white;
+	display:table-cell;
+	width:inherit;
+	height:inherit;
+	vertical-align:middle;
+	padding:10px;
+}
+.listproducts li span,
+.thumb li span {
+    display: block;
+    font-size: 22pt;
+    font-family: montserrat;
+}*/
+
+/*#Formulir{
+	background-image:url("./img/formulir_.jpg");
+}
+
+#Formulir span:nth-child(1){
+	color: white;
+}
+
+#Formulir span:nth-child(3){
+	color: #ffcf60;
+}
+
+#Formulir li:nth-child(1) span:nth-child(2) {
+	color: #ffcf60;
+}
+strong {font-weight: 700}
+#Formulir label, #Formulir strong{
+	color: white;
+	font-size: 15px;
+}
+
+#KonsultasiWA{border-top:solid 1px #ddd;background-color:#f8f8f8;}
+
+._blocks{display:none;}
+#_b13{display:block;}
+#_Formulir{display:block;}
+#_KonsultasiWA{display:block;}*/
