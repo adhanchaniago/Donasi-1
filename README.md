@@ -75,4 +75,13 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).\
+
+## Langkah - langkah nya adalah
+
+ketik di url localhost:8000/home -> itu untuk tambah data.
+kalau untuk melihat data, edit, dan hapus data. anda ketik di url localhost:8000/login
+anda isi email tersebut dengan admin@mail.com
+dan isi password nya dengan admin1234
+lalu ke menu donasi, anda bisa edit data dan hapus data tersebut
+Silahkan mencoba ....
